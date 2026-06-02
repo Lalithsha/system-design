@@ -1,0 +1,21 @@
+services: 
+  shard-0:
+    image: postgres:15
+    container_name: shard-0
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: userdb
+    ports:
+      - 5432:5432
+
+  shard-1:
+    image: postgres:15
+    container_name: shard-1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: userdb
+    ports:
+      - 5433:5432
+      
