@@ -40,3 +40,9 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Virtual Environment
+venv/
+
+#Local Notes
+Notes.txt
