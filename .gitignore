@@ -46,3 +46,7 @@ venv/
 
 #Local Notes
 Notes.txt
+
+# Python Caches
+__pycache__/
+*.py[cod]
